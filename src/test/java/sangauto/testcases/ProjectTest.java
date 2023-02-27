@@ -1,11 +1,11 @@
 package sangauto.testcases;
 
-import sangauto.Base.BaseTest;
+import sangauto.pages.CommonPage;
 import sangauto.pages.LoginPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ProjectTest extends BaseTest {
+public class ProjectTest extends CommonPage {
 
     @BeforeMethod
     public void setupTest() {

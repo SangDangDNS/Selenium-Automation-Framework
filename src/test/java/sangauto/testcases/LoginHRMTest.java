@@ -1,9 +1,9 @@
 package sangauto.testcases;
 
-import sangauto.Base.BaseTest;
 import org.testng.annotations.Test;
+import sangauto.pages.CommonPage;
 
-public class LoginHRMTest extends BaseTest {
+public class LoginHRMTest extends CommonPage {
 
 
     @Test
